@@ -1,8 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
 header{
-    padding: 15px;
+    overflow: auto;
+    width: 100%;
+    margin: 0 0 30px;
+    z-index: 99;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    background-color: white;
+}
+
+h1{
+    /* padding: 20px; */
+    height: 90px;
+    line-height: 90px;
     background-color: rgb(3, 89, 143);
     color: white;
-    width: 18%;
-    margin-left: 10%;
+    width: 250px;
     text-align: center;
+    float: left;
+    text-decoration: none;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-break: 34px;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#navPanel{
+    /* background-color: white;
+    width: 100%;
+    padding: 20px;
+    float: right; */
+}
+
+#navLinks{
+    text-align: right;
+}
+
+#aboutMe{
+
+}
+
+#pictureDiv{
+
+}
+
+#info{
+
+}
+
+#footer{
+
 }
