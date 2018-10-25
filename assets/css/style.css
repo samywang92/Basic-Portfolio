@@ -23,6 +23,7 @@ h1{
     text-align: center;
     float: left;
     text-decoration: none;
+    margin: 0;
 }
 
 body{
@@ -36,7 +37,6 @@ body{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    clear: both;
 }
 
 #navPanel{
@@ -48,6 +48,7 @@ body{
 
 #navLinks{
     text-align: right;
+    clear: both;
 }
 
 #aboutMe{
