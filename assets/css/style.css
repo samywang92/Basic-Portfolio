@@ -79,7 +79,7 @@ a:hover{
     padding: 10px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 650px;
+    max-width: 960px;
     float: left;
     border: 1px solid #ddd;
     /* clear: both; 
@@ -141,3 +141,8 @@ footer{
     z-index: 99;
     width: 16.5%;
 }
+
+#contactForm ul {
+    list-style: none;
+}
+
