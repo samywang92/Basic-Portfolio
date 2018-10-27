@@ -12,6 +12,7 @@ header{
     /* position: fixed; */
     background: url('../img/white_carbon.png');
     background-color: white;
+    box-shadow: 10px 10px 5px black;
 }
 
 h1{
@@ -33,6 +34,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     line-break: 34px;
+    margin: 0;
 }
 
 .container{
@@ -79,7 +81,7 @@ a:hover{
     padding: 10px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 960px; /* 650 with side bar */
+    max-width: 960px; 
     float: left;
     border: 1px solid #ddd;
     /* clear: both; 
@@ -113,7 +115,9 @@ footer{
     padding: 25px;
     border-top: 5px solid rgb(3, 89, 143);
     color: white;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .portfolioPicture{
@@ -122,9 +126,10 @@ footer{
     float: left;
     margin: 20px 0 25 px;
     z-index: 1;
+    position: relative;
 }
 
-.portfolioPicture:nth-child(even){
+.portfolioPicture:nth-child(odd){
     margin-left: 40px;
 }
 
@@ -140,6 +145,8 @@ footer{
     position: absolute;
     z-index: 99;
     width: 16.5%;
+    bottom: 5px;
+    width: 100%;
 }
 
 #contactForm ul {
