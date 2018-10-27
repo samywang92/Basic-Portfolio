@@ -79,7 +79,7 @@ a:hover{
     padding: 10px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 960px;
+    max-width: 960px; /* 650 with side bar */
     float: left;
     border: 1px solid #ddd;
     /* clear: both; 
@@ -144,5 +144,15 @@ footer{
 
 #contactForm ul {
     list-style: none;
+    margin-bottom: 20px;
 }
 
+label, input [type = text], input[type = email], textarea{
+    display: block;
+    width: 95%;
+}
+
+input [type = text], input[type = email], textarea{
+    height: 300px;
+    padding: 10px;
+}
