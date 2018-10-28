@@ -91,7 +91,6 @@ body{
     height: auto;
     margin-top: 10px;
     float:left;
-    margin-right: 25px;
 }
 
 footer{
@@ -109,10 +108,10 @@ footer{
 }
 
 .portfolioPicture{
-    width: 270px; /* note to sammy, i tried making this smaller and the width of the col but no luck*/
+    width: 270px;
     overflow: auto;
     float: left;
-    margin: 20px 0 25 px;
+    margin: 10px;
     z-index: 1;
     position: relative;
 }
@@ -134,7 +133,7 @@ footer{
     position: absolute;
     z-index: 99;
     width: 16.5%;
-    bottom: 5px;
+    bottom: 1px;
     width: 100%;
 }
 
