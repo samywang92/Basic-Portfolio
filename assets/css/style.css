@@ -56,13 +56,18 @@ body{
     padding: 40px 5px 0px 5px;
 }
 
-#links{
+.links{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+.links:hover{
+    text-decoration: none;
     color: rgb(3, 89, 143);
+}
+
+.links:visited{
+    text-decoration: none;
 }
 
 .imgProp{
@@ -121,7 +126,7 @@ footer{
 }
 
 .portfolioPicture{
-    width: 275px;
+    width: 270px;
     overflow: auto;
     float: left;
     margin: 20px 0 25 px;
@@ -129,8 +134,9 @@ footer{
     position: relative;
 }
 
-.portfolioPicture:nth-child(odd){
-    margin-left: 40px;
+.col{
+    margin-right: 10px;
+    width: 270x;
 }
 
 .portfolioPicture img{
